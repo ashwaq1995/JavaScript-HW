@@ -10,10 +10,10 @@
 // -------------------------------------------------------------------
 
 function getRectangleArea(length, width) {
-    return length*width;
-  }
+  return length*width;
+}
 
-  let area = getRectangleArea(4,5);
+let area = getRectangleArea(4,5);
 
 console.log("The area of your rectangle is " + area);
 
@@ -29,13 +29,13 @@ console.log("The area of your rectangle is " + area);
 // -------------------------------------------------------------------
 
 function celsiusToFahrenheit(celsius) {
-  var celsiusInF = (celsius * 9) / 5 + 32;
-  console.log(celsius + "°C is " + celsiusInF + "°F");
+var celsiusInF = (celsius * 9) / 5 + 32;
+console.log(celsius + "°C is " + celsiusInF + "°F");
 }
 
 function fahrenheitToCelsius(fahrenheit) {
-  var fahrenheitInC = ((fahrenheit - 32) * 5) / 9;
-  console.log(fahrenheit + "°F is " + fahrenheitInC + "°C");
+var fahrenheitInC = ((fahrenheit - 32) * 5) / 9;
+console.log(fahrenheit + "°F is " + fahrenheitInC + "°C");
 }
 
 
@@ -50,20 +50,20 @@ fahrenheitToCelsius(45);
 // -------------------------------------------------------------------
 
 var Numbers = [23,54,32,87,47];
-for (var i = 0, sum = 0; i < Numbers.length; sum += Numbers[i++]);
+for (var i = 0, sumNumber = 0; i < Numbers.length; sumNumber += Numbers[i++]);
 
-console.log(sum)
+console.log(sumNumber)
 
 // -------------------------------------------------------------------
 // -------------------------------------------------------------------
 
 //another way
 
-const Numbers = [23,54,32,87,47];
+const listNumbers = [23,54,32,87,47];
 let sum = 0;
 
-for (let i = 0; i < Numbers.length; i++) {
-    sum += Numbers[i];
+for (let i = 0; i < listNumbers.length; i++) {
+  sum += listNumbers[i];
 }
 console.log(sum);
 
@@ -75,12 +75,12 @@ console.log(sum);
 // Loop through the array elements and print the maximum number of this list to the console.
 // -------------------------------------------------------------------
 
-var numbers = [16,4,2,0,19,6];
-var max = numbers[0];
-for (var i = 1; i < numbers.length; i++) {
-  if (numbers[i] > max) {
-    max = numbers[i];
-  }
+var maxNumbers = [16,4,2,0,19,6];
+var max = maxNumbers[0];
+for (var i = 1; i < maxNumbers.length; i++) {
+if (maxNumbers[i] > max) {
+  max = maxNumbers[i];
+}
 }
 console.log("Max is: " + max);
 
@@ -106,9 +106,7 @@ console.log("revNumber", revNumber);
 // Print a right angle triangle using stars to the console. 
 // ------------------------------------------------------------------- 
 
-
 let n = 10;
-
 for (let i = 1; i <= n; i++) {
   // printing spaces
   for (let j = 0; j < n - i; j++) {
@@ -120,5 +118,8 @@ for (let i = 1; i <= n; i++) {
   }
   console.log();
 }
+
+
 // ------------------------------------------------------------------- 
 // ------------------------------------------------------------------- 
+
